@@ -32,7 +32,7 @@ background: linear-gradient(to left, #4A569D, #DC2424); /* W3C, IE 10+/ Edge, Fi
 }
 
 .box {
-    width: 50%;
+    width: 90%;
     text-align: center;
     background-color: white;
     border-radius: 12px;
@@ -199,3 +199,18 @@ color: #ff0000;
     );
     box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
   }
+
+
+  @media only screen and (max-width: 600px) {
+    .box {
+        width: 90%;
+    }
+
+    .social-ico {
+        flex-direction: column;
+    }
+
+    .button {
+        width: 100%;
+    }
+}
